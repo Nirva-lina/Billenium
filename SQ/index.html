@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billenium conciergerie</title>
+    <!-- Lien vers le fichier CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Lien vers les scripts JavaScript externes -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html">
+                <img src="images/logo2.png" alt="Logo2 de Billenium conciergerie" class="logo2">
+            </a>
+            <h1>BILLENIUM CONCIERGERIE</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Accueil</a></li>
+
+                    <li><a href="#services">Services</a></li>
+
+                    <li><a href="#about">À propos</a></li>
+
+                    <li><a href="#contact">Contact</a></li>
+
+                    <li><a href="#account">Espace client</a></li>
+
+                    <li><a href="#partners">Nos partenaires</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <div class="container">
+                <h2>Bienvenue sur  le site officiel de Billenium conciergerie</h2>
+                <p>Billenium conciergerie est une société de prestation de service sur mesure pour satisfaire 
+                les besoins réels de nos clients.</p>
+                <p>Nous offrons un meilleur equilibre entre vie privée et vie profesionnelle.</p>
+            </div>
+        </section>
+        <section id="services">
+            <div class="container">
+                <h2>Nos Services</h2>
+                <div class="service">
+                    <h3>Conciergerie</h3>
+                    <p>Description .</p>
+                </div>
+                <div class="service">
+                    <h3>Voyage et demande de visa</h3>
+                    <p>Description.</p>
+                </div>
+                <div class="service">
+                    <h3>Reservation</h3>
+                    <p>Description.</p>
+                </div>
+                <div class="service">
+                    <h3>immobilier</h3>
+                    <p>Description.</p>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id="Nos partenaires">
+        <div class="container">
+            <h2>Nos Partenaires</h2>
+            <div class="Nos partenaires">
+                <h3>Partnaire 1</h3>
+                <p>Activité.</p>
+            </div>
+            <div class="Nos partenaires">
+                <h3>Partnaire 2</h3>
+                <p>Activité.</p>
+            </div>
+            <div class="Nos partenaires">
+                <h3>Partnaire 3</h3>
+                <p>Activité .</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contactez-nous</h2>
+            <form action="submit_form.php" method="POST" class="contact-form">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="subject">Sujet :</label>
+                <input type="text" id="subject" name="subject" required>
+                
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Billenium Conciergerie. Tous droits réservés.</p>
+        </div>
+    </footer>
+    <!-- Lien vers le fichier JavaScript personnalisé -->
+    <script src="scripts.js"></script>
+</body>
+</html>
